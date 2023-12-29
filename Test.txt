@@ -1,0 +1,138 @@
+var X, p, a, result, cal;
+
+// Describe this function...
+function Basic1() {
+  X = 15 - 3;
+  window.alert(X);
+}
+
+// Describe this function...
+function Basic2() {
+  X = 536 / 2;
+  window.alert(X);
+}
+
+// Describe this function...
+function Basic3() {
+  p = 71;
+  a = p + 5;
+  result = a / 3;
+  window.alert(result);
+}
+
+// Describe this function...
+function Basic4() {
+  X = 3;
+  a = 514;
+  result = a / X;
+  window.alert(result);
+}
+
+// Describe this function...
+function Basic5() {
+  X = 2;
+  a = 58;
+  cal = a / X;
+  result = a / X;
+  window.alert(result);
+}
+
+
+Basic1();
+Basic2();
+Basic3();
+Basic4();
+Basic5();
+
+======================================================================
+var x, n, i, result;
+
+// Describe this function...
+function Advanced1() {
+  x = 1;
+  n = 5;
+  i = 0;
+  result = (n * (n + 1)) / 2;
+  window.alert(result);
+}
+Advanced1();
+
+=====================
+
+var coid1, coid2, coid5, coid10, card, give;
+
+// Describe this function...
+function do_something() {
+  coid1 = 0;
+  coid2 = 0;
+  coid5 = 0;
+  coid10 = 0;
+  card = 45;
+  give = 60;
+  give = give - card;
+  while (give > 0) {
+    if (give >= 10) {
+      give = give - 10;
+      coid10 = coid10 + 1;
+    } else if (give >= 5) {
+      give = give - 5;
+      coid5 = coid5 + 1;
+    } else if (give >= 2) {
+      give = give - 2;
+      coid2 = coid2 + 1;
+    } else if (give >= 1) {
+      give = give - 1;
+      coid1 = coid1 + 1;
+    }
+  }
+  window.alert('Coid10 = ' + String(coid10));
+  window.alert('Coid5 = ' + String(coid5));
+  window.alert('Coid2 = ' + String(coid2));
+  window.alert('Coid1 = ' + String(coid1));
+}
+
+
+do_something();
+
+====================================================
+
+var working, x, y, z, unit, fifa;
+
+
+working = 8 * 30;
+x = 1000;
+y = 1000;
+z = 1500;
+unit = (x + y + z) * (working / 1000);
+fifa = unit * 5.5;
+window.alert(fifa);
+
+==========================================================
+
+var a, b, c;
+
+// Describe this function...
+function area(a, b, c) {
+  if (a * a + b * b == c * c) {
+    return 'Yes';
+  }
+  return 'no';
+}
+
+
+window.alert(area(3, 4, 5));
+
+==============================================================
+
+
+var x, y, price, area;
+
+// Describe this function...
+function area2(x, y) {
+  price = 15;
+  area = x * y;
+  return area * price;
+}
+
+
+window.alert(area2(12.4, 5.4));
